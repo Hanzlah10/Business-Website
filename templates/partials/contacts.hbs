@@ -1,0 +1,36 @@
+<div class="container-fluid mt-0 " id="aboutid">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto contact-style" id="contactid">
+            <h1 class="text-center main-heading">Contact Us</h1>
+            <p class="text-center sub-heading">we will be happy to help you</p>
+        <div class="col-md-6 mx-auto">
+            <form action= "/contact" method="POST">
+                <div class="mb-2 input-group-lg">
+                    <label for="contact_name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="contact_name" name="name" >
+                </div>
+                <div class="mb-2 input-group-lg">
+                    <label for="contact_email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="contact_email" name="email" aria-describedby="emailHelp">
+                    <div id="emailHelp"  class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-2 input-group-lg">
+                    <label for="contact_pass" class="form-label">Phone</label>
+                    <input type="phone" name="phone" class="form-control" id="contact_pass">
+                </div>
+                <div class="mb-2 form-check input-group-lg">
+                    <input type="checkbox" class="form-check-input mt-0" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1" style="display: inline;">Check me out</label>
+                </div>
+                 <div class="mb-2 input-group-lg">
+                    <label for="contact_message" class="form-label">Message</label>
+                    <input type="text" name="message"class="form-control" id="contact_message">
+                </div>
+                 <div class="mb-2 input-group-lg d-flex align-items-center">
+                   <button type="submit" class="btn btn-primary btn-lg  mt-3">Submit</button>
+                 </div>
+                </form>
+        </div>
+        </div>
+    </div>
+</div>
